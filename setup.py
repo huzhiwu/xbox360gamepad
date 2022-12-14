@@ -23,7 +23,7 @@ setup(
     author_email="job@huzhiwu.com",
 
     description="A x360 box gamepad controller API",
-    long_description=read("README.rst"),
+    long_description=read("README.md"),
 
     packages=find_packages(exclude=('tests',)),
 
