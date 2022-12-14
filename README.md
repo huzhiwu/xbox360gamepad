@@ -3,7 +3,7 @@ xbox360gamepad
 
 A x360 box gamepad controller API
 
-为了方便小孩子捣鼓树莓派小车，机器人等等，从淘宝购买的无限手柄🎮，店家未提供驱动和开发库。所以基于inputs库简单封装了一下。
+为了方便小孩子捣鼓树莓派小车，机器人等等，从淘宝购买的无线手柄🎮，店家未提供驱动和开发库。所以基于inputs库简单封装了一下。
 
 
 Installation
@@ -16,6 +16,7 @@ Usage
 -----
 
 ```python
+
 import time
 import logging; logging.basicConfig(level=logging.DEBUG)
 
@@ -53,7 +54,7 @@ while 1:
 
 Compatibility
 -------------
-只在树莓派系统测试，其他系统兼容未知. 
+只在树莓派系统测试，其他系统兼容未知. 理论上其他类似手柄也是兼容的。
 
 Licence
 -------
