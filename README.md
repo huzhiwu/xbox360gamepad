@@ -17,6 +17,8 @@ Usage
 
 ```python
 import time
+import logging; logging.basicConfig(level=logging.DEBUG)
+
 from xbox360gamepad import GamepadController
 
 controller = GamepadController()
