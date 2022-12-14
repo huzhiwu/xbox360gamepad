@@ -9,7 +9,7 @@ A x360 box gamepad controller API
 Installation
 ------------
 ```sh
-pip3 install https://github.com/huzhiwu/xbox360gamepad
+pip3 install git+https://github.com/huzhiwu/xbox360gamepad@main
 ```
 
 Usage
